@@ -11,4 +11,4 @@ function slideshow() {
         i=0
     }
 }
-setInterval(slideshow, 1000)
+setInterval(slideshow, 7000)

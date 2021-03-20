@@ -1,0 +1,307 @@
+
+     {
+         "markers": [
+    {
+        "name": "Arena Wexford",
+        "lat":52.34456611491875,
+        "lng":-6.4686427306865815,
+        "address": "Eden House, Redmond Rd, Ferrybank South, Wexford, Y35 R6VX",
+        "website": "http://www.arenawexford.com/"
+    },
+    {
+        "name": "Berserkers Team Ireland",
+        "lat":53.18126149146826,
+        "lng":-6.799040272699171,
+        "address": "1 Eyre St, Piercetown, Newbridge, Co. Kildare, W12 PX99",
+        "website": "https://www.facebook.com/pages/category/Martial-Arts-School/Berserkers-Team-Ireland-349155898482571/"
+    },
+    {
+        "name": "C-MAC",
+        "lat":53.403076021498244,
+        "lng":-6.399429672692802,
+        "address": "Parkside House, Mulhuddart Village",
+        "website": "https://www.facebook.com/cmac.mma/"
+    },
+    {
+        "name": "Coleman Combat",
+        "lat":53.34333155980888,
+        "lng":-6.272761072694545,
+        "address": "High Street Kenpo Academy School House Lane Dublin 8 ",
+        "website": "https://www.colemancombat.com/facilities"
+    },
+    {
+        "name": "Compound Martial Arts",
+        "lat":53.38567045513304,
+        "lng":-6.214139074544065,
+        "address": "Butterly Business Park, Unit 24, Kilmore Rd, Artane, Co. Dublin, D05 HH34",
+        "website": "https://www.facebook.com/CompoundMartialArts/"
+    },
+
+    {
+        "name": "DCU MMA",
+        "lat":53.38705386257512,
+        "lng":-6.258192050855235,
+        "address": "Dublin City University, Whitehall, Dublin 9",
+        "website": "https://www.facebook.com/DCU-Mixed-Martial-Arts-736961459665559/"
+    },
+
+    {
+        "name": "Dublin Combat Academy",
+        "lat":53.3638366293654,
+        "lng":-6.271209186186487,
+        " address": "Unit 2 7, Cross Guns Business Park, Royal Canal Bank, Phibsborough Park",
+        "website": "https://www.facebook.com/DublinCombatAcademy/"
+    },
+    {
+        "name": "F.1.T",
+        "lat":51.88647955501132,
+        "lng":-8.588593001571848,
+        "address": "Unit 4 Westside Retail Park",
+        "website": "https://www.facebook.com/F.1.Tcentre"
+    },
+    {
+        "name": "Fantom Dublin",
+        "lat":53.35090534693532,
+        "lng":-6.262856028515221,
+        " address": "23 Moore St, North City, Dublin, D01 N7E8",
+        "website": "https://www.facebook.com/FantomGym/"
+    },
+    {
+        "name": "Ferocity MMA",
+        "lat":53.975794908479685,
+        "lng":-6.710792930347878,
+        "address": "Dundalk Rd ,Lisanisk ,Carrickmacross Co.Monaghan",
+        "website": "https://www.facebook.com/Ferocity-Mma-Fitness-Centre-1396922383859542/"
+    },
+    {
+        "name": "Full Power Gym",
+        "lat":53.36918232517633,
+        "lng":-6.234656241434616,
+        "address": "82 N Wall Quay, North Dock, Dublin, D01 XR83",
+        "website": "https://www.facebook.com/FullPowerGymDrogheda/"
+    },
+    {
+        "name": "Husaria Fight Team",
+        "lat":52.84478012058378,
+        "lng":-8.973923353261807,
+        "address": "Clon Road Business Park, Clon Rd, Cappahard, Ennis, Co. Clare",
+        "website": "https://www.facebook.com/Husaria-Fight-Team-167175519996191/"
+    },
+    {
+        "name": "Kokoro Mixed Martial Arts Dublin",
+        "lat":53.35639186747569,
+        "lng":-6.242154259201615,
+        "address": "Unit 4, Sráid Na Gaeilge, An Trá Thuaidh, Dublin 3",
+        "website": "http://kokoromma.org/index.html"
+    },
+    {
+        "name": "Kyuzo MMA",
+        "lat":53.37592488984366,
+        "lng":-6.306309930365237,
+        "address": "2a, Ballyboggan Business Centre, Ballyboggan Rd, Cabra West, Dublin 11",
+        "website": "http://kyuzogym.com/"
+    },
+    {
+        "name": "Limerick BJJ Academy",
+        "lat":52.65804673598622,
+        "lng":-8.636951572714146,
+        "address": "St Alphonsus St, Limerick",
+        "website": "http://www.limerickbjjacademy.com/"
+    },
+    {
+        "name": "MMA Cork",
+        "lat":51.91972064287831,
+        "lng":-8.47685366799377,
+        "address": "T23 XC85, Unit 4, New Sunbeam Industrial Estate, Blackpool, Co. Cork",
+        "website": "https://mmacork.com/"
+    },
+    {
+        "name": "MMA Nenagh Warriors",
+        "lat":52.87091207741929,
+        "lng":-8.19274143037976,
+        "address": "Old Birr Road, Nenagh North, Nenagh, Co. Tipperary",
+        "website": ""
+    },
+    {
+        "name": "Malahide Martial Arts",
+        "lat":53.46280652726272,
+        "lng":-6.2070376861836225,
+        "address": "Unit 17, Seatown Business Campus, Swords",
+        "website": "http://malahidemma.com/"
+    },
+    {
+        "name": "Pedro Bessa Brazilian Jiu-jitsu Cork",
+        "lat":51.873161804826374,
+        "lng":-8.509886188079678,
+        "address": "Unit 3 Karlbrooke Business Park, Doughcloyne Industrial Estate, Sarsfield Road, Wilton, Cork, T12 Y650",
+        "website": "https://www.bjjcork.com/"
+    },
+    {
+        "name": "Point Blank BJJ",
+        "lat":53.29323240122379,
+        "lng":-9.013350159203469,
+        "address": "Ballybane Industrial Estate, 30, Glenrock Business Park, Galway",
+        "website": "http://pointblankgym.com/"
+    },
+    {
+        "name": "Rilion Gracie Ireland",
+        "lat":54.94265706991942,
+        "lng":-7.739913628468784,
+        "address": "Gaeltex, Oldtown Rd, Oldtown, Letterkenny, Co. Donegal",
+        "website": "http://www.riliongracieireland.com/"
+    },
+    {
+        "name": "Rush Fight Academy",
+        "lat":53.52156972504169,
+        "lng":-6.104247883614653,
+        "address": "Rush National School, Channel Rd, Rush, Co. Dublin",
+        "website": "http://www.rushfightacademy.ie/"
+    },
+    {
+        "name": "Ryoshin Fight Team",
+        "lat":53.34584364919763,
+        "lng":-6.370958745709406,
+        "address": "19 Oakcourt Lawn, Johnstown, Dublin 20, D20 PW28 Oakcourt Lawn, Johnstown, Dublin 20, D20 PW28",
+        "website": "http://www.ryoshinmma.com/"
+    },
+    {
+        "name": "SBG Cork City",
+        "lat":51.922903630333856,
+        "lng":-8.487367959242421,
+        "address": "North Point Business Park, Unit 31 New Mallow Rd, Cork, T23 HN76",
+        "website": "http://sbgcork.com/"
+    },
+
+    {
+        "name": "SBG Drogheda",
+        "lat":53.7019219093769,
+        "lng":-6.375896672684191,
+        "address": "Unit 11, Newgrange Business Park, Lagavooren, Drogheda, Co. Louth",
+        "website": "http://www.sbgdrogheda.com/"
+    },
+    {
+        "name": "Samson Martial Arts",
+        "lat":51.89774936763641,
+        "lng":-8.450001474586486,
+        "address": "Centre Park House, Centre Park Rd, Ballintemple, Cork",
+        "website": "https://www.facebook.com/Samson-Martial-Arts-Ireland-661737673881455/"
+    },
+    {
+        "name": "Sanda MMA Dundalk",
+        "lat":54.00547295613088,
+        "lng":-6.37775145918282,
+        "address": "1 Coes Rd, Marshes Lower, Dundalk Co.Louth",
+        "website": "https://www.facebook.com/SandaMMAdundalk/"
+    },
+    {
+        "name": "Satori",
+        "lat":53.39714294588486,
+        "lng":-6.402637697068272,
+        "address": "Unit 8B Coolmine Central Porters Road Ireland, Coolmine Industrial Estate, Dublin, D15 KT72",
+        "website": "https://www.satoribjj.com/"
+    },
+    {
+        "name": "Shaolin MMA",
+        "lat":53.28658269845903,
+        "lng":-9.038357770845415,
+        "address": "Kilkerrin Park 1 Liosban Industrial Estate, no. 11, Tuam Rd, Galway",
+        "website": "https://shaolinmma.com/ic/index.html"
+    },
+    {
+        "name": "SharkBait MMA",
+        "lat":52.66219111644771,
+        "lng":-8.626432288057329,
+        "address": "11-12 Catherine St, Limerick, V94 F865",
+        "website": "https://www.facebook.com/sharkbait.mma.9/"
+    },
+    {
+        "name": "Shootfighters",
+        "lat":53.17420126787466,
+        "lng":-6.913831538563635,
+        "address": "Adress None",
+        "website": "https://www.facebook.com/shootfighters.leixlipmma"
+    },
+    {
+        "name": "Siam Warriors Cork",
+        "lat":51.90347499077489,
+        "lng":-8.482410815063892,
+        "address": "Ballymacthomas St, Glen Ryan Rd, Gurranabraher, Cork",
+        "website": "https://www.facebook.com/pages/category/Sports-Team/Siam-Warriors-Cork-140990235914651/"
+    },
+    {
+        "name": "Spartan MMA",
+        "lat":53.29787864729682,
+        "lng":-6.372732003382403,
+        "address": "Circle K garage, Spartan Club, Old Belgard Rd, Tallaght, Co. Dublin",
+        "website": "https://www.facebook.com/spartanclub/"
+    },
+    {
+        "name": "Straight Blast Gym Charlestown",
+        "lat":53.402230720010714,
+        "lng":-6.3017217015286695,
+        "address": "Century Business Park, 1B, St Margaret's Rd, Charlestown, Dublin, D11 H972",
+        "website": "https://www.facebook.com/Sbgcharlestown/"
+    },
+    {
+        "name": "Straight Blast Gym Dublin 24",
+        "lat":53.29608466410855,
+        "lng":-6.34822009447469,
+        "address": "Unit GB1, Sitecast Industrial Estate, Greenhills Rd, Tallaght, Dublin 24",
+        "website": "http://www.sbgd24.ie/"
+    },
+    {
+        "name": "Straight Blast Gym Ireland",
+        "lat":53.336542019572015,
+        "lng":-6.322683416873826,
+        "address": "Goldenbridge Industrial Estate, Unit 13, Inchicore, Dublin, D08 WK22",
+        "website": "https://sbgireland.com/"
+    },
+    {
+        "name": "Straight Blast Gym Tullamore",
+        "lat":53.26937339074899,
+        "lng":-7.496164289890692,
+        "address": "Kilcruttin Business Park, Spollenstown, Tullamore, Co. Offaly",
+        "website": "https://www.sbgtullamore.com/"
+    },
+    {
+        "name": "Systema Gym Cork",
+        "lat":51.921781601674404,
+        "lng":-8.189624674585772,
+        "address": "Knockgriffin (Imokilly), Midleton, Co. Cork"
+    },
+    {
+        "name": "T45 Jiu Jitsu",
+        "lat":51.89228115556664,
+        "lng":-8.165251843900068,
+        "address": "Unit 13, Ballinacurra Business Park, Co. Cork",
+        "website": "https://t45jiujitsu.ie/"
+    },
+    {
+        "name": "Team KF Martial Arts",
+        "lat":53.43829625630824,
+        "lng":-6.226980888035089,
+        "address": "Metropoint Business Park, Unit B3, Kettles Ln, Swords, Co. Dublin, K67 NP22",
+        "website": "http://www.sbgswords.com/"
+    },
+    {
+        "name": "Team Ryano MMA",
+        "lat":53.39872821699408,
+        "lng":-6.295050803379507,
+        "address": ".2 Creation House, Finglas Business Centre, Jamestown Rd, Finglas North, Dublin",
+        "website": "http://www.teamryano.com/"
+    },
+    {
+        "name": "Tralee Martial Arts",
+        "lat":52.26817950045311,
+        "lng":-9.709257676716454,
+        "address": "2 Godfrey Pl, Tralee, Co. Kerry, V92 RW8D",
+        "website": "https://www.facebook.com/tralee.arts/"
+    },
+    {
+        "name": "K-Fit Fitness DoJo",
+        "lat":53.29379210041179,
+        "lng":-8.749809330686581,
+        "address": "Athenry Shopping Centre, Unit 10, Bridgewater, Athenry, Co. Galway",
+        "website": "https://www.facebook.com/pages/category/Martial-Arts-School/K-FIT-Fitness-Dojo-2118288294883801/"
+    }
+]}
