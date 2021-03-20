@@ -179,7 +179,6 @@ var map = new google.maps.Map(document.getElementById('map'),options);
           content:'<h1>K-Fit Fitness DoJo</h1>' +'<br>'+'Address:'+'<br>'+ '<h2>Athenry Shopping Centre, Unit 10, Bridgewater, Athenry, Co. Galway</h2>' + '<a href="https://www.facebook.com/pages/category/Martial-Arts-School/K-FIT-Fitness-Dojo-2118288294883801/">https://www.facebook.com/pages/category/Martial-Arts-School/K-FIT-Fitness-Dojo-2118288294883801/</a>'
         },
 
-
       ];
 
       // Loop through markers
@@ -189,16 +188,14 @@ var map = new google.maps.Map(document.getElementById('map'),options);
 
       }
 
-      //Add MArker function
+      //Add Marker function
       function addMarker(props){
         var marker = new google.maps.Marker({
           position:props.coords,
           map:map,
 
         });
-
         
-
         //Check content
         if(props.content){
           var infoWindow = new google.maps.InfoWindow({
@@ -210,6 +207,7 @@ var map = new google.maps.Map(document.getElementById('map'),options);
         }
         return marker;
       }
+      //Clusters google maps
     var markerCluster = new MarkerClusterer(map, gmarkers, 
       {
         imagePath:
