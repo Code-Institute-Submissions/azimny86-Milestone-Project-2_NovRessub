@@ -3,7 +3,7 @@ body {
     background-color: rgb(28, 28, 34);
     color: black;
 }
-h1 , h2 {
+h1 , h2 ,h3{
     color:gold;
 }
 
@@ -72,6 +72,10 @@ a {
 .movie {
     padding-top: 20px;
     text-align: center;
+}
+
+.contact {
+    width: 60%;
 }
 
 /*      Footer      */
