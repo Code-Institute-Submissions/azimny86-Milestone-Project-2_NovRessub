@@ -46,14 +46,18 @@
     </nav>
 
 
-    <!--    -->
+    <!--        Slideshow       -->
 
             <div class="slideshow">
                     <script src="/assets/scripts/slideshow.js"></script>
-                    <img src="/assets/images/slide2.jpg" alt="Slideshow" width="100%" height="300px" id="slide">
+                    <img src="/assets/images/slide2.jpg" alt="Slideshow"  id="slide" class="slideshow-left">
             </div>
-  
-            
+            <div class="logo">
+            <img src="/assets/images/logo.jpg" alt="Logo">
+            </div>
+            <div class="slideshow">
+                <img src="/assets/images/slide2.jpg" alt="Slideshow"  id="slide" class="slideshow-right">
+            </div>
     <!--The div element for the map -->
         
     <div id="map"></div>
@@ -62,6 +66,21 @@
                 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTFKCQHBw2k-Ei9NIX_375Wmp2H_zmuak&callback=initMap">
                 </script>
     <article>
+
+
+    <!--        Searchbar       -->
+    <div class="wrapper">
+        <div class="container">
+          <form role="search" method="get" class="search-form form" action="">
+            <label>
+                <span class="screen-reader-text">Search for...</span>
+                <input type="search" class="search-field" placeholder="Find a MMA Gym near you" value="" name="s" title="" />
+            </label>
+            <input type="submit" class="search-submit button" id='search' value="&#xf002" />
+        <div id="match-list"></div>
+        </form>
+        </div>
+      </div>
         <div class="movie">
             <h2>Short video on how to find the right gym:</h2>
 
@@ -72,6 +91,7 @@
                 allowfullscreen></iframe>
         </div>
         <hr>
+
     <!--       FQA       -->
         <div class="findGym">
             <h1>Few questions for beginners:</h1>
@@ -253,7 +273,8 @@
         crossorigin="anonymous"></script>
         <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
-   
+    <!---->
+    <script src="/assets/scripts/contact.js"></script>
 </body>
 
 </html>

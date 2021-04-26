@@ -8,7 +8,7 @@ body {
 
 .navbar-text {
     font-size: xx-large;
-    color:gold;
+    color:#f9d342;
 }
 .nav-item a{
     color: #f9d342;
@@ -17,8 +17,31 @@ body {
 
 
 /*      Slideshow       */
+.slideshow-left {
+  width: 952px;
+  height: 315px;
+  object-fit: fill;
+  float: left;
+  border: 5px solid #f9d342;
+}
 
+.slideshow-right {
+  width: 951px;
+  height: 315px;
+  object-fit: fill;
+  float: right;
+  border: 5px solid #f9d342;
+}
 
+.logo img {
+  border-radius: 30%;
+  object-fit: fill;
+  position: absolute;
+  margin: 32px -128px;
+  width: 250px;
+  height: 250px;
+  border: 5px solid #f9d342;
+}
 /*      Map */
 #map {
     margin-top: 25px;
