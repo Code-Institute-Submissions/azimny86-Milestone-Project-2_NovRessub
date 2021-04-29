@@ -23,10 +23,10 @@ const searchGym = async searchText => {
 const outputHtml = matches => {
     if(matches.length > 0) {
         const html = matches.map(match => `
-        <div class="card card-body mb-1">
-        <h3 class="text-warning">${match.name} (${match.town})</h3>
+        <div class="card card-subtitle mb-2">
+        <h3 class="text-warning">${match.name} </h3>
         <h3 class="text-warning">${match.address}</h3>
-        <p><a href="${match.website}>${match.website}</a></p>
+        <a href="${match.website} class="card-link">${match.website}</a>
     `
     )
     .join('');
