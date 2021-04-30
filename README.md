@@ -28,10 +28,13 @@ I'm thankful for you all visiting my project. If you have any suggestions, quest
 
 ## Design Process
 
+
 * I started my design process with following the trend and making a website, only on one page with few secions "Map Section" , "Video Section" , "Few questions for beginners Section" , "Contact form" .
 * During the design process, I use MMA gloves as inspiration for the selection of colors on the website.
+![ScreenClip](assets/images/Wireframe/ColorHuntPalette282572.png)
 1. black (Background and text in infoWIndow).
 2. #f9d342(text and buttom on contact form).
+3.  #fafafa(Background color on serchlist)
 
 * For made a wireframe I use FIGMA. I made the design easy to navigate trough. 
 
