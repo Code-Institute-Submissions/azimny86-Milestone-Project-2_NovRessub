@@ -6,6 +6,8 @@ This site was created to give people information about good MMA gyms in Ireland.
 
 This is my second milestone on my Code Institute course, in which I was given the instructions to make an Interactive Front End Project.
 
+I'm thankful for you all visiting my project. If you have any suggestions, questions or feedback feel free to reach out to me on GitHub.
+
 # UX
 
 ## Goals
@@ -31,5 +33,61 @@ This is my second milestone on my Code Institute course, in which I was given th
 * For made a wireframe I use FIGMA. I made the design easy to navigate trough. 
 
 # Wierframe
+I use a  __[Balsamiq](https://balsamiq.cloud/)__  to make wireframes for the website, I created first a desktop version and after that, I make a tablet and mobile. 
+
+You can find my mock-ups below:
+* __[Desktop](assets/images/Wireframe/Desktop.png)__
+* __[Mobile](assets/images/Wireframe/Mobile.png)__
 
 # Features
+
+## Features throughout page
+## Navbar
+## Map
+* Google Map api used
+* Markers with gym positions
+* After clicking on the marker, a window appears with the name of the gym, address and the website of the gym or the website of the gym on facebook
+* Placed clusters with a large number of gyms in the area
+
+## Video how to find a good MMA gym
+* A video explaining how to choose the right MMA gym to help a beginner choose a good gym. The video used is from the YouTube channel __[Howcast ](https://www.youtube.com/c/howcast/featured)__ .
+## FQA
+* A few questions most frequently asked by beginners
+## Contact Form
+* Form for asking questions for users as well as for gym owners to add them to the database
+# Technologies Used
+
+## Languages
+*  __[HTML](https://en.wikipedia.org/wiki/HTML)__ 
+*  __[CSS](https://en.wikipedia.org/wiki/CSS)__ 
+*  __[JavaScript](https://www.javascript.com/)__ 
+
+
+## Technologies
+*  __[Balsamiq](https://balsamiq.cloud/)__ 
+*  __[Git](https://git-scm.com/)__ 
+*  __[GitPod](https://www.gitpod.io/)__ 
+*  __[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)__ 
+*  __[W3C HTML Validation Service](https://validator.w3.org/)__ 
+*  __[HTML Formatter](https://codebeautify.org/htmlviewer//)__ 
+* __[Online JavaScript Beautifier](https://beautifier.io/)__ 
+* __[Bootstrap](https://getbootstrap.com/)__
+* __[Google Maps API](https://developers.google.com/maps/documentation)__
+
+# Testing
+
+## Testing Devices
+My webpage was tested using Google Developer Tools to see if it's responsive. All devices were tested successfully including Iphones, Samsungs and Ipads of different screen sizes
+## Validating HTML5 and CSS3 code
+My code used in the project was tested on the WC3 Validation pages and passed all tests
+# Deployment
+This project was deployed via GitHub by following these steps :
+* Navigate to the repository on github and click Settings.
+* From there, go to the Source section within the Github Pages section.
+* Select master branch on the dropdown menu, and click save.
+* The page will be available at this link __[Find a MMA Gym in Irleand]()__.
+****
+# Credits
+
+## Content
+YouTube video it's from the channel __[Howcast ](https://www.youtube.com/c/howcast/featured)__ .  The rest of the content was written by me, all gyms really exist.

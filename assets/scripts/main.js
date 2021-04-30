@@ -23,10 +23,11 @@ const searchGym = async searchText => {
 const outputHtml = matches => {
     if(matches.length > 0) {
         const html = matches.map(match => `
-        <div class="card card-subtitle mb-2">
-        <h3 class="text-warning">${match.name} </h3>
-        <h3 class="text-warning">${match.address}</h3>
-        <a href="${match.website} class="card-link">${match.website}</a>
+        <div class="list-group searchList">
+        <h3 class="text-dark">${match.name} </h3>
+        <h3 class="text-dark">${match.address}</h3>
+        <a href="${match.website} class="card-link p-3 ">Gym Website</a>
+        <hr>
     `
     )
     .join('');
@@ -35,3 +36,6 @@ const outputHtml = matches => {
 }
     
 search.addEventListener('input' , () => searchGym(search.value));
+
+// window alert with information about COVID-19 restrictions 
+window.alert ("Due to a Level 5 restriction by the Irish government, all of trainings has been suspended");
