@@ -1,20 +1,16 @@
 function sendMail(contactForm) {
-    emeilja.send("gmail" , "FGII-email" , {
+    emailjs.send("gmail","FAMGII", {
         "from_name": contactForm.name.value,
-        "from.email": contactForm.emailaddress.value,
-        "massage": contactForm.massage.value,
+        "from_email": contactForm.emailaddress.value,
+        "massage": contactForm.massage.value
     })
     .then(
         function(response) {
-        console.log("Success", response);
-    },
-    function(error) {
-        console.log("Failed", error);
-    }
+            console.log("SUCCESS", response);
+        },
+        function(error) {
+            console.log("FAILED", error);
+        }
     );
-    return false;
-}
-
-function alertFunction() {
-    alert("Your message has been sent !");
+    return false;  // To block from loading a new page
 }

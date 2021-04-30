@@ -17,11 +17,24 @@
         type="text/css" />
     
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <!--        -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<!--        Dashboard.emailjs       -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("user_xslTRFNefLYqt9xqulx3l");
+
+})();
+</script>
+</script>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container-fluid">
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -46,15 +59,15 @@
     <!--        Slideshow       -->
 
     <div class="slideshow">
-        <script src="/assets/scripts/slideshow.js"></script>
-        <img src="/assets/images/slide2.jpg" alt="Slideshow" id="slideLeft" class="slideshow-left">
+        <script src="../assets/scripts/slideshow.js"></script>
+        <img src="../assets/images/slide2.jpg" alt="Slideshow" id="slideLeft" class="slideshow-left">
         <div class="slideshow">
-            <img src="/assets/images/slide1.jpg" alt="Slideshow" id="slideRight" class="slideshow-right">
-            <script src="/assets/scripts/slideshow.js"></script>
+            <img src="../assets/images/slide1.jpg" alt="Slideshow" id="slideRight" class="slideshow-right">
+            <script src="../assets/scripts/slideshow.js"></script>
         </div>
     </div>
     <div class="logo">
-        <img src="/assets/images/logo.jpg" alt="Logo">
+        <img src="../assets/images/logo.jpg" alt="Logo">
     </div>
    
     <!--The div element for the map -->
@@ -78,8 +91,9 @@
             <h2>Short video on how to find the right gym:</h2>
 
             <br>
+            
             <!--        Video with tips on how to find the right gym-->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/cDuBvL2gADw" frameborder="0"
+            <iframe src="https://www.youtube.com/embed/cDuBvL2gADw" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </div>
@@ -173,30 +187,26 @@
         </div>
 
         <!--        Contact         -->
-        <section class="container-fluid contact ">
+        <section class="container-fluid contact">
             <div class="row bg-color-contact">
                 <div class="col">
                     <h2 class="contact-heading uppercase text-center">Do you want to contact us?</h2>
                     <h3 class="uppercase text-center ">Write us a message</h3>
-                    <div class="center-form">
-                        <form onsubmit="return sendMail(this) , alertFunction();">
-                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name"
-                                required />
-                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
-                                required />
-                            <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control"
-                                placeholder="Write a message" required></textarea>
-                            <div class="form-row text-center">
-                                <div class="col">
-                                    <button type="submit" id="sendmessage" class="btn btn-outline-warning">Send </button>
-                                </div>
-                            </div>
-                        </form>
+                </div>
+                <div class="center-form">
+                    <form onsubmit="return sendMail(this);">
+                        <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                        <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                        <textarea rows="5" name="massage" class="form-control" id="massage" placeholder="Write a message .." required></textarea>
+                    <div class="form-row text-center">
+                        <div class="col">
+                            <button type="submit" class="btn btn-outline-warning">Send</button>
+                        </div>
                     </div>
-
+                    </form>
                 </div>
             </div>
-
+    <!--        Footer      -->
             <ul class="list-inline social-links">
                 <li class="list-inline-item">
                     <a target="_blank" href="https://www.facebook.com/">
@@ -241,9 +251,11 @@
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTFKCQHBw2k-Ei9NIX_375Wmp2H_zmuak&callback=initMap">
             </script>
             <!-- Map.js     -->
-            <script src="assets/scripts/map.js"></script>
+            <script src="../assets/scripts/map.js"></script>
             <!--        Main.js-->
-            <script src="assets/scripts/main.js"></script>
+            <script src="../assets/scripts/main.js"></script>
+            <!--        Contact     -->
+            <script src="../assets/scripts/contac.js"></script>
             <!--        JQuery      -->
             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
                 integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

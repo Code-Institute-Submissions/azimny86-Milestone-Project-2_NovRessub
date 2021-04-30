@@ -37,8 +37,7 @@ const outputHtml = matches => {
     
 search.addEventListener('input' , () => searchGym(search.value));
 
-// window alert with information about COVID-19 restrictions 
-/*
-window.alert ("Due to a Level 5 restriction by the Irish government, all of trainings has been suspended");
 
-*/
+
+// window alert with information about COVID-19 restrictions 
+window.alert ("Due to a Level 5 restriction by the Irish government, all of trainings has been suspended");

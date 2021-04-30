@@ -273,7 +273,7 @@ body {
       margin: 0;
     }
   .slideshow {
-    display: flexgit ;
+    display: flex ;
   }
   }
   /* Larger than Desktop HD */
