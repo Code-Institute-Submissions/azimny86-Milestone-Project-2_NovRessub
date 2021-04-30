@@ -1,6 +1,6 @@
 //  Slideshow-left
 
-var slides= ['./assets/images/slide1.jpg','./assets/images/slide2.jpg','./assets/images/slide3.jpg','./assets/images/slide4.jpg','./assets/images/slide5.jpg'];
+var slides= ['assets/images/slide1.jpg','assets/images/slide2.jpg','assets/images/slide3.jpg','assets/images/slide4.jpg','assets/images/slide5.jpg'];
 
 var j = 0;
 
@@ -21,11 +21,11 @@ var images = [];	// Images Array
 var time = 3000;	// Time Between Switch
 	 
 // Image List
-images[0] = "./assets/images/slide5.jpg";
-images[1] = "./assets/images/slide4.jpg";
-images[2] = "./assets/images/slide3.jpg";
-images[3] = "./assets/images/slide2.jpg";
-images[4] = "./assets/images/slide1.jpg";
+images[0] = "assets/images/slide5.jpg";
+images[1] = "assets/images/slide4.jpg";
+images[2] = "assets/images/slide3.jpg";
+images[3] = "assets/images/slide2.jpg";
+images[4] = "assets/images/slide1.jpg";
 // Change Image
 function changeImg(){
 	document.slideRight = images[i]

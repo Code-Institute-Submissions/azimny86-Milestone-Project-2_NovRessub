@@ -3,7 +3,7 @@ const matchList = document.getElementById('match-list');
 
 //Search gyms.json and filter
 const searchGym = async searchText => {
-    const res = await fetch('../assets/Json/gyms.json');
+    const res = await fetch('assets/Json/gyms.json');
     const gyms = await res.json();
 
     //Get matche to text input
