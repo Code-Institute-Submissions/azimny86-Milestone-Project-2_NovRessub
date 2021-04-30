@@ -15,10 +15,8 @@
     <!--    Font Awsome     -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         type="text/css" />
-    <!--        JQuery      -->
-    <script src="https://code.jquery.com/jquery-3.2.1.js"
-        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="assets/scripts/search.js"></script>
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
 </head>
 
 <body>
@@ -36,9 +34,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Social Media</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="search.html">Search</a>
-                    </li>
                 </ul>
                 <span class="navbar-text">
                     Find a MMA Gym in Irleand
@@ -52,32 +47,32 @@
 
     <div class="slideshow">
         <script src="/assets/scripts/slideshow.js"></script>
-        <img src="/assets/images/slide2.jpg" alt="Slideshow" id="slide" class="slideshow-left">
+        <img src="/assets/images/slide2.jpg" alt="Slideshow" id="slideLeft" class="slideshow-left">
+        <div class="slideshow">
+            <img src="/assets/images/slide1.jpg" alt="Slideshow" id="slideRight" class="slideshow-right">
+            <script src="/assets/scripts/slideshow.js"></script>
+        </div>
     </div>
     <div class="logo">
         <img src="/assets/images/logo.jpg" alt="Logo">
     </div>
-    <div class="slideshow">
-        <img src="/assets/images/slide1.jpg" alt="Slideshow" id="slide" class="slideshow-right">
-        <script src="/assets/scripts/slideshow.js"></script>
-    </div>
+   
     <!--The div element for the map -->
 
     <div id="map"></div>
-    <script src="assets/scripts/map.js"></script>
-    <script async
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTFKCQHBw2k-Ei9NIX_375Wmp2H_zmuak&callback=initMap">
-        </script>
+       
     <article>
         <!--        Searchbar       -->
         
-        <div class="center-form">
-            <input type="text" id="search" oninput="fetchGyms()" value="SBG"/>
-            <div id="gym-data"></div>
-            <div id="repo-data"></div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="form-group">
+                    <input type="text"  id="search" class="form-control form-control-lg" placeholder="Enter the name of city"  aria-describedby="inputGroup-sizing-lg">
+                </div>
+                <div id="match-list"></div>
+            </div>
         </div>
-
-        
+       
         <!--        Video       -->
         <div class="movie">
             <h2>Short video on how to find the right gym:</h2>
@@ -97,7 +92,7 @@
             <br>
             <h2>First things first – Who are the instructors?</h2>
             <p>
-                Searching for MMA Gyms Near Me? Well one of the most important thing is finding a great instructor which
+                Searching for MMA Gyms Near Me? Well one of the most important things is finding a great instructor which
                 requires some background research. While a specialism in striking or grappling is normal in MMA
                 training, instructors should be able to offer classes in both skill sets. If you intend to compete, try
                 finding a coach with either personal experience in competition or has coached successful fighters in the
@@ -108,54 +103,40 @@
             <hr>
             <h2>How to find the right gym?</h2>
             <p>
-                Given the amount of MMA schools emerging world-wide, finding the right gym can be a difficult decision.
-                A reputable instructor with a strong competition team is always a good sign. Gym culture should also
-                impact your choice. Always take a trial class first to talk to other gym members and see how friendly,
-                dedicated, and respectful they are. If you are looking to compete, finding out if there will be sparring
-                partners in your weight class will also prove useful.
+                Given the amount of MMA schools emerging worldwide, finding the right gym can be a difficult decision.
+                A reputable instructor with a strong competition team is always a good sign. Gym culture should also impact your choice. Always take a trial class first to talk to other gym members and see how friendly,
+                dedicated, and respectful they are. If you are looking to compete, finding out if there will be sparring partners in your weight class will also prove useful.
             </p>
             <hr>
             <h2>What to expect on my first day?</h2>
             <p>
-                Be prepared for a work out! Beginners are usually discouraged from sparring during their first day of
-                MMA training, but light-pad work, shadow boxing, and strength and conditioning are common. If you still
-                feel unsure, it’s perfectly acceptable to first watch from the sidelines to see if MMA is for you. Keep
+                Be prepared for a workout! Beginners are usually discouraged from sparring during their first day of
+                MMA training, but light-pad work, shadow boxing, and strength and conditioning are common. If you still feel unsure, it’s perfectly acceptable to first watch from the sidelines to see if MMA is for you. Keep
                 in mind though, beginner MMA classes require no prior experience and if you want to know more about what
                 is MMA be sure to checkout the post.
             </p>
             <hr>
             <h2>How much are memberships?</h2>
             <p>
-                Memberships can vary greatly depending on location, coaches, and the number of classes offered during
-                the week, ranging anywhere from 50 to 100 Euro. Although it doesn’t hurt to check their website for
-                rates, most MMA gyms want you to first come in for a trial class. This allows them to showcase the value
+                Memberships can vary greatly depending on location, coaches, and the number of classes offered during the week, ranging anywhere from 50 to 100 Euro. Although it doesn’t hurt to check their website for rates, most MMA gyms want you to first come in for a trial class. This allows them to showcase the value
                 they provide for your hard-earned money.
             </p>
             <hr>
             <h2>How many classes do MMA gyms offer per day</h2>
             <p>
-                Like memberships, the exact number of classes can vary. MMA schools generally offer a variety of
-                classes, including MMA for women, MMA for kids, competition classes, and other related combat sports
-                like Brazilian Jiu-jitsu, Muay Thai, Boxing, Judo, Wrestling and Kickboxing. Most offer two or three
-                evening classes and one in the afternoon or morning. Just remember, while taking a greater number of MMA
-                classes will lead to quicker improvement, make sure not to make yourself vulnerable to injury and
-                burnout due to overexertion.
+                Like memberships, the exact number of classes can vary. MMA schools generally offer a variety of classes, including MMA for women, MMA for kids, competition classes, and other related combat sports like Brazilian Jiu-jitsu, Muay Thai, Boxing, Judo, Wrestling, and Kickboxing. Most offer two or three evening classes and one in the afternoon or morning. Just remember, while taking a greater number of MMA
+                classes will lead to quicker improvement, make sure not to make yourself vulnerable to injury and burnout due to overexertion.
             </p>
             <hr>
             <h2>Is location Important?</h2>
-            <p>One of the first questions you should ask is, ‘are there MMA gyms near me?’ An easily accessible gym
-                could drastically affect the amount of time you can commit to training. If you don’t have a car, make
-                sure to check the local transportation system to the area for frequency and reliability. That being
+            <p>One of the first questions you should ask is, ‘are there MMA gyms near me?’ An easily accessible gym could drastically affect the amount of time you can commit to training. If you don’t have a car, make sure to check the local transportation system to the area for frequency and reliability. That being
                 said, if you’re trying to make a career in MMA, consider moving to a place with quality training
                 facilities nearby.
             </p>
             <hr>
             <h2>Is Mixed Martial Arts right for me?</h2>
             <p>
-                Well it can be the right fit for a variety of reasons, whether you’re after fitness, self-defense, or an
-                outlet for your competitive spirit. One of the great aspects of mixed martial arts, as opposed to more
-                traditional martial arts, is its proven effectiveness through the arena of combat sport. MMA classes
-                also offer a more fun alternative to repetitive strength and conditioning programs. Remember, you don’t
+                Well, it can be the right fit for a variety of reasons, whether you’re after fitness, self-defense, or an outlet for your competitive spirit. One of the great aspects of mixed martial arts, as opposed to more traditional martial arts, is its proven effectiveness through the arena of combat sport. MMA classes also offer a more fun alternative to repetitive strength and conditioning programs. Remember, you don’t
                 need to be in excellent physical shape before starting; training at an MMA school will get you there.
                 Lastly, if you are just looking for a hobby in your spare time, it also lets you learn a useful skill
                 set in a fun way.
@@ -164,9 +145,7 @@
             <h2>Is it better if they teach more than one discipline?</h2>
             <p>
                 Teaching more than one discipline, commonly Brazilian Jiu-jitsu, Muay Thai, wrestling, and Kickboxing,
-                offers the opportunity to delve more in depth into certain aspects of MMA fighting. This can prove
-                especially useful if you already have a background in a discipline and want to compensate for your
-                deficiencies in another area. For instance, someone with a background in high school or college
+                offers the opportunity to delve more in-depth into certain aspects of MMA fighting. This can prove especially useful if you already have a background in a discipline and want to compensate for your deficiencies in another area. For instance, someone with a background in high school or college
                 wrestling might want to take extra classes in Kickboxing or Muay Thai to round out his or her skill
                 sets.
             </p>
@@ -174,26 +153,20 @@
             <h2>What to wear when training?</h2>
             <p>
                 A question that is often asked, does MMA have a uniform? Although most loose-fitting clothing works,
-                many fighters prefer to wear rash guards and spats under their shorts during MMA classes as the fabric
-                can defend against matt-burn and scratches. Most gyms have extra gloves, boxing gloves and shin-pads for
-                beginners, but it’s recommended to check in before-hand with the gym and ask. Once you start sparring, a
+                many fighters prefer to wear rash guards and spats under their shorts during MMA classes as the fabric can defend against matt-burn and scratches. Most gyms have extra gloves, boxing gloves, and shin pads for beginners, but it’s recommended to check in beforehand with the gym and ask. Once you start sparring, a
                 mouth guard, hand-wraps, and a groin guard become essential as well. If you choose to take a class in
                 BJJ or Judo you will also need to buy a traditional gi uniform.
             </p>
             <hr>
             <h2>Finding MMA Gyms for women</h2>
             <p>
-                More and more gyms are catering towards MMA for women. A good sign is if the gym already has a few
-                female members or specifically offers MMA classes for women. The presence of other female fighters also
+                More and more gyms are catering towards MMA for women. A good sign is if the gym already has a few female members or specifically offers MMA classes for women. The presence of other female fighters also
                 allows you to better appreciate the type of physique you might face in competition.
             </p>
             <hr>
             <h2>Is Mixed Martial Arts safe for kids?</h2>
             <p>
-                MMA for kids, like any contact sport, has some risks. good schools, however, mitigate the chance of
-                injury through a structured regime geared toward learning in a fun environment. For kids, the most
-                important lessons learned in training in mixed martial arts are self-discipline, respect, and how to
-                keep active. Watching a kid’s class to see if coaches are friendly and patient can help you decide if
+                MMA for kids, like any contact sport, has some risks. good schools, however, mitigate the chance of injury through a structured regime geared toward learning in a fun environment. For kids, the most important lessons learned in training in mixed martial arts are self-discipline, respect, and how to keep active. Watching a kid’s class to see if coaches are friendly and a patient can help you decide if
                 the classes create the safe and positive atmosphere your children need.
             </p>
             <hr>
@@ -259,25 +232,29 @@
             </div>
             </footer>
 
-            <!--        Script Alert        -->
-            <script src="/assets/scripts/alert.js" type="text/javascript"></script>
+           <!--     Scripts     -->
             <!--    Google Maps Clusters    -->
             <script
                 src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-            <!---->
+            <!--        Api Key-->
+            <script async
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTFKCQHBw2k-Ei9NIX_375Wmp2H_zmuak&callback=initMap">
+            </script>
+            <!-- Map.js     -->
+            <script src="assets/scripts/map.js"></script>
+            <!--        Main.js-->
+            <script src="assets/scripts/main.js"></script>
+            <!--        JQuery      -->
             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
                 integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
                 crossorigin="anonymous"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
                 integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
                 crossorigin="anonymous"></script>
+                <!--        Bootstrap       -->
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
                 integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
                 crossorigin="anonymous"></script>
             <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-            <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
-            <!--        Contact     -->
-            <script src="assets/scripts/contac.js"></script>
 </body>
-
 </html>
