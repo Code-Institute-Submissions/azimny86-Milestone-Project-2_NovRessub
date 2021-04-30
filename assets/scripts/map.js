@@ -181,32 +181,37 @@ var map = new google.maps.Map(document.getElementById('map'),options);
 
       ];
 
-      // Loop through markers
-      var gmarkers = [];
-      for(var i = 0; i < markers.length; i++){
-        gmarkers.push(addMarker(markers[i]));
+// Loop through markers
+ var gmarkers = [];
+  for(var i = 0; i < markers.length; i++){
+    gmarkers.push(addMarker(markers[i]));
 
-      }
+   }
 
-      //Add Marker function
-      function addMarker(props){
-        var marker = new google.maps.Marker({
-          position:props.coords,
-          map:map,
+//Add Marker function
+  function addMarker(props){
+    var marker = new google.maps.Marker({
+      position:props.coords,
+      map:map,
 
-        });
+     });
         
-        //Check content
-        if(props.content){
-          var infoWindow = new google.maps.InfoWindow({
-            content:props.content
-          });
+        
+//Check content
+  if(props.content){
+    var infoWindow = new google.maps.InfoWindow({
+    content:props.content
+    });
           marker.addListener('click',function(){
             infoWindow.open(map,marker);
+            map.setZoom(12);
+            map.setCenter(marker.getPosition());
           });
         }
         return marker;
       }
+
+      
       //Clusters google maps
     var markerCluster = new MarkerClusterer(map, gmarkers, 
       {
@@ -214,4 +219,3 @@ var map = new google.maps.Map(document.getElementById('map'),options);
         'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
       });
     }
-  google.maps.event.addDomListener(window, 'load', initMap)
