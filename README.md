@@ -1,5 +1,8 @@
 # Milestone-Project-2 : Find a MMA GYM
+![ScreenClip](assets/images/Wireframe/ScreenClip.png)
 
+
+ __[Live Webpage](https://azimny86.github.io/Milestone-Project-2/)__
 # Introduction
 
 This site was created to give people information about good MMA gyms in Ireland. The idea for the website was born when my current employer sent me for training in another town , and was put in a position to look for one.
@@ -43,6 +46,7 @@ You can find my mock-ups below:
 
 ## Features throughout page
 ## Navbar
+* Navbar always sticks to the top of the page on devices with large screens
 ## Map
 * Google Map api used
 * Markers with gym positions
@@ -85,7 +89,7 @@ This project was deployed via GitHub by following these steps :
 * Navigate to the repository on github and click Settings.
 * From there, go to the Source section within the Github Pages section.
 * Select master branch on the dropdown menu, and click save.
-* The page will be available at this link __[Find a MMA Gym in Irleand]()__.
+* The page will be available at this link __[Find a MMA Gym in Irleand](https://azimny86.github.io/Milestone-Project-2/)__.
 ****
 # Credits
 

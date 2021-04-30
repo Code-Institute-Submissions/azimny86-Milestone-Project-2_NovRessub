@@ -92,7 +92,7 @@ body {
 /*      Footer      */
 
 .footer {
-    background-color: rgb(241, 255, 50);
+    background-color: #0000;
 }
 
 .social {
@@ -121,7 +121,7 @@ body {
     float: right;
     line-height: 7px;
     text-align: center;
-    color: rgb(241, 255, 50);;
+    color: #f9d342;
     background: #8f8f8f;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
