@@ -4,7 +4,10 @@ body {
 }
 
 /*      Navbar      */
-
+.navbar {
+  background-color: #000;
+  border-bottom: 2px solid #f9d342;
+}
 .navbar-text {
     font-size: xx-large;
     color:#f9d342;
@@ -13,7 +16,47 @@ body {
     color: #f9d342;
 }
 
+/*      Navbar Mobile   */
+  .topnav {
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+  }
 
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+
+  /* Style navigation menu links */
+  .topnav a {
+    color: #f9d342;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: #000;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #000;
+    color: #f9d342;
+  }
+
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #000;
+    color: #f9d342;
+  }
 
 /*      Slideshow       */
 .slideshow-left {
@@ -143,13 +186,18 @@ body {
 .slideshow {
   display: none;
 }
-
+.navbar {
+  display: none;
+}
 }
   /* Larger than phablet */
   @media (min-width: 550px) {
     .movie iframe {
     width: 315px;
     margin: 0 48px;
+    }
+    .navbar {
+      display: none;
     }
   }
   /* Larger than tablet */
@@ -158,6 +206,12 @@ body {
       width: 560px;
       height: 315px;
       margin: 0;
+    }
+    .navbar {
+      display: none;
+    }
+    .navbar {
+      display: contents;
     }
   }
   
@@ -172,6 +226,12 @@ body {
   .slideshow {
     display: flex ;
   }
+  .mobile-nav {
+    display: none;
+  }
+  .navbar {
+    display: contents;
+  }
   }
   /* Larger than Desktop HD */
   @media (min-width: 1200px) {
@@ -180,5 +240,10 @@ body {
       height: 315px;
       margin: 0;
     }
-  
+    .mobile-nav {
+      display: none;
+    }
+    .navbar {
+      display: contents;
+    }
   }
