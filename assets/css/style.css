@@ -61,24 +61,22 @@ body {
 /*      Slideshow       */
 
 .slideshow-left {
-  width: 50vw;
-  height: 315px;
-  object-fit: fill;
+  width: 960px;
+  height: 290px;
   float: left;
   border: 5px solid #f9d342;
+  
 }
 
 .slideshow-right {
-  width: 50vw;
-  height: 315px;
-  object-fit: fill;
+  width: 960px;
+  height: 290px;
   float: right;
   border: 5px solid #f9d342;
 }
 
 .logo img {
   border-radius: 30%;
-  object-fit: fill;
   position: absolute;
   margin: 32px -128px;
   width: 250px;
