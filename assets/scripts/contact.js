@@ -1,3 +1,4 @@
+
 function sendMail(contactForm) {
     emailjs.send("gmail", "FAMGII", {
             "from_name": contactForm.name.value,
@@ -6,10 +7,10 @@ function sendMail(contactForm) {
         })
         .then(
             function(response) {
-                console.log("SUCCESS", response);
+                window.alert("Your message has been sent successfully !!");
             },
             function(error) {
-                console.log("FAILED", error);
+                console.log("Your message has not been sent correctly !!!!", error);
             }
         );
     return false; // To block from loading a new page
