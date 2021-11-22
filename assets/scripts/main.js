@@ -32,6 +32,6 @@ const outputHtml = matches => {
             .join('');
         matchList.innerHTML = html;
     }
-}
+};
 
 search.addEventListener('input', () => searchGym(search.value));

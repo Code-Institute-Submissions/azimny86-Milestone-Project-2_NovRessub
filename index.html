@@ -2,28 +2,26 @@
 <html lang="en">
 
 <head>
+    <meta name="description" content="Website to help find mma gyms in Ireland ">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Find a MMA Gym in Irleand</title>
 
     <!--    Links   -->
     <!--        Bootstrap       -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!--    CSS     -->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <!--    Font Awsome     -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
-        type="text/css" />
-    <!--        -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    
+    <!--    Contact     -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
     </script>
     <!--        Dashboard.emailjs       -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script type="text/javascript">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script>
         (function () {
             emailjs.init("user_xslTRFNefLYqt9xqulx3l");
 
@@ -45,7 +43,7 @@
                         <a class="nav-link" href="#scroll-findGym">FQA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#scroll-contac">Contact</a>
+                        <a class="nav-link" href="#scroll-contact">Contact</a>
                     </li>
                 </ul>
                 <span class="navbar-text">
@@ -75,12 +73,12 @@
     <!--        Slideshow       -->
 
     <div class="slideshow" id="scroll-top">
-        <img src="./assets/images/slide2.jpg" alt="Slideshow" id="slideLeft" class="slideshow-left">
+        <img src="./assets/images/slide.jpg" alt="Slideshow" id="slideLeft" class="slideshow-left">
         <div class="logo">
             <img src="./assets/images/logo.jpg" alt="Logo">
         </div>
         <div class="slideshow">
-            <img src="./assets/images/slide1.jpg" alt="Slideshow" id="slideRight" class="slideshow-right">
+            <img src="./assets/images/slide6.jpg" alt="Slideshow" id="slideRight" class="slideshow-right">
         </div>
     </div>
 
@@ -94,8 +92,7 @@
         <div class="container mt-5">
             <div class="row">
                 <div class="form-group">
-                    <input type="text" id="search" class="form-control form-control-lg"
-                        placeholder="Enter the name of city" aria-describedby="inputGroup-sizing-lg">
+                    <input type="text" id="search" class="form-control " placeholder="Enter the name of city">
                 </div>
                 <div id="match-list"></div>
             </div>
@@ -108,9 +105,7 @@
             <br>
 
             <!--        Video with tips on how to find the right gym-->
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cDuBvL2gADw" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+            <iframe title="How to find MMA Gym" class="embed-responsive-item" src="https://www.youtube.com/embed/cDuBvL2gADw" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <hr>
 
@@ -227,7 +222,7 @@
         </div>
 
         <!--        Contact         -->
-        <section class="container-fluid contact" id="scroll-contact">
+        <div class="container-fluid contact" id="scroll-contact">
             <div class="row bg-color-contact">
                 <div class="col">
                     <h2 class="contact-heading uppercase text-center">Do you want to contact us?</h2>
@@ -236,10 +231,8 @@
                 <div class="center-form">
                     <form onsubmit="return sendMail(this);">
                         <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required />
-                        <input type="text" name="emailaddress" class="form-control" id="emailaddress"
-                            placeholder="Email" required />
-                        <textarea rows="5" name="massage" class="form-control" id="massage"
-                            placeholder="Write a message .." required></textarea>
+                        <input type="email" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required />
+                        <textarea rows="5" name="massage" class="form-control" id="massage" placeholder="Write a message .." required></textarea>
                         <div class="form-row text-center">
                             <div class="col">
                                 <button type="submit" class="btn btn-outline-warning">Send</button>
@@ -248,73 +241,65 @@
                     </form>
                 </div>
             </div>
+        </div>
+    </article>
             <!--        Footer      -->
     <footer>
             <ul class="list-inline social-links">
                 <li class="list-inline-item">
-                    <a target="_blank" href="https://www.facebook.com/">
+                    <a target="_blank" href="https://www.facebook.com/" rel="noopener">
                         <i class="fa fa-facebook facebook" aria-hidden="true"></i>
                         <span class="sr-only">Facebook</span>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a target="_blank" href="https://twitter.com/">
+                    <a target="_blank" href="https://twitter.com/" rel="noopener">
                         <i class="fa fa-twitter" aria-hidden="true"></i>
                         <span class="sr-only">Twitter</span>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a target="_blank" href="https://www.pinterest.ie/">
+                    <a target="_blank" href="https://www.pinterest.ie/" rel="noopener">
                         <i class="fa fa-pinterest" aria-hidden="true"></i>
                         <span class="sr-only">Pinterest</span>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a target="_blank" href="https://www.instagram.com/">
+                    <a target="_blank" href="https://www.instagram.com/" rel="noopener">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                         <span class="sr-only">Instagram</span>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a target="_blank" href="https://www.youtube.com/">
+                    <a target="_blank" href="https://www.youtube.com/" rel="noopener">
                         <i class="fa fa-youtube" aria-hidden="true"></i>
                         <span class="sr-only">YouTube</span>
                     </a>
                 </li>
             </ul>
-
     </footer>
 
             <!--     Scripts     -->
+
             <!--    Google Maps Clusters    -->
             <script
                 src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
             <!--        Api Key-->
-            <script async
-                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTFKCQHBw2k-Ei9NIX_375Wmp2H_zmuak&callback=initMap">
-                </script>
-            <!-- Map.js     -->
+            <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTFKCQHBw2k-Ei9NIX_375Wmp2H_zmuak&callback=initMap"> </script>
+            <!--        Map.js     -->
             <script src="assets/scripts/map.js"></script>
-            <!--        Main.js-->
+            <!--        Main.js     -->
             <script src="assets/scripts/main.js"></script>
             <!--        Contact     -->
-            <script src="assets/scripts/contac.js"></script>
+            <script src="assets/scripts/contact.js"></script>
             <!--        Slideshow       -->
             <script src="assets/scripts/slideshow.js"></script>
             <!--        Mobile Navbar   -->
             <script src="assets/scripts/mobile-nav.js"></script>
             <!--        JQuery      -->
-            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-                crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-                crossorigin="anonymous"></script>
-            <!--        Bootstrap       -->
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-                crossorigin="anonymous"></script>
-            <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            
 </body>
 
 </html>
