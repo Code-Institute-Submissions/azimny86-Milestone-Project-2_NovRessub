@@ -104,7 +104,12 @@ it was fixed by disabling all extensions in the browser
 
 ## Testing Devices
 
-My webpage was tested using Google Developer Tools to see if it's responsive. All devices were tested successfully including Iphones, Samsungs and Ipads of different screen sizes
+My webpage was tested using Google Developer Tools to see if it's responsive. 
+* __[Desktop](assets/images/Wireframe/ligthouse-Desktop.png)__
+* __[Mobile](assets/images/Wireframe/lighthouse-mobile.png)__<br>
+All devices were tested successfully including Iphones, Samsungs and Ipads of different screen sizes.
+
+
 ## Validating HTML5 and CSS3 code
 My code CSS and HTML  used in the project was tested on the WC3 Validation pages and passed all tests
 * __[CSS](/assets/images/Wireframe/CSSValidatorRaport.png)__
