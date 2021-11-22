@@ -83,10 +83,34 @@ You can find my mock-ups below:
 
 # Testing
 
+## BUGS
+
+* The site did not display the navbar on small screen devices:<br> It was a bug in the media section of CSS code, this was corrected by creating two navbars one for large screen devices and the other for devices with smaller.
+I also added a large screen devices navbar will be stuck to the top of the screen
+
+
+* Error about billing on consol and also on the map itself:<br>
+    The error was caused by a misconfigured API it was fixed by reconfiguring on  __[Google Cloud Platform](https://console.cloud.google.com/)__
+
+* HTML code does not pass validator:<br>
+    The code does not pass the W3C validator check through non-closed elements this has been fixed by carefully checking the code in the W3C validator
+    another bug in the code was due to some attributes and ifrem it was fixed with the addition of the built-in bootstrap **embed-responsive-item** class and adding the title to the link
+
+Result of checking the code after correcting:
+ __[HTML](/assets/images/Wireframe/IndexValidatorRaport.png)__
+
+* During testing, I also encountered a problem with errors displayed in consol  __[bug](assets/images/Wireframe/bug_-_22_lis__10_03_AM.png)__
+it was fixed by disabling all extensions in the browser
+
 ## Testing Devices
+
 My webpage was tested using Google Developer Tools to see if it's responsive. All devices were tested successfully including Iphones, Samsungs and Ipads of different screen sizes
 ## Validating HTML5 and CSS3 code
-My code used in the project was tested on the WC3 Validation pages and passed all tests
+My code CSS and HTML  used in the project was tested on the WC3 Validation pages and passed all tests
+* __[CSS](/assets/images/Wireframe/CSSValidatorRaport.png)__
+* __[HTML](/assets/images/Wireframe/IndexValidatorRaport.png)__
+
+
 # Deployment
 This project was deployed via GitHub by following these steps :
 * Navigate to the repository on github and click Settings.
